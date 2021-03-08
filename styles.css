@@ -11,6 +11,7 @@ h1 {
 h2 {
     color: 	#a98b98;
     font-size: 125%;
+    margin: 10px 0px 2px;
 }
 
 h3 {
@@ -20,6 +21,7 @@ h3 {
 
 p {
     color: 	#a98b98;
+    margin: 5px 0px;
 }
 
 td {

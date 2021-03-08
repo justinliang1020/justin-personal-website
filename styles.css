@@ -1,11 +1,32 @@
 body {
-    background-color: darkslategrey;
+    background-color: #0f1123;
 }
 
 h1 {
-    color: whitesmoke;
+    color: 	#a6f0c6;
+    margin: 0;
+    font-size: 350%;
+}
+
+h2 {
+    color: 	#a98b98;
+    font-size: 125%;
+}
+
+h3 {
+    color: 	#a6f0c6;
+    font-size: 150%;
 }
 
 p {
-    color: grey;
+    color: 	#a98b98;
+}
+
+td {
+    color: #a98b98;
+    padding-right: 30px;
+}
+
+a {
+    color: #a98b98;
 }

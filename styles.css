@@ -1,34 +1,11 @@
 body {
-    background-color: #0D0D0D;
-}
-
-h1 {
-    color: 	#F2E750;
-    margin: 0;
-    font-size: 350%;
-}
-
-h2 {
-    color: 	#D9A036;
-    font-size: 125%;
-    margin: 10px 0px 2px;
-}
-
-h3 {
-    color: 	#D9A036;
-    font-size: 150%;
-}
-
-p {
-    color: 	#8C6723;
-    margin: 5px 0px;
-}
-
-td {
-    color: #8C6723;
-    padding-right: 30px;
+    background-color : #222831;
 }
 
 a {
-    color: #8C6723;
+    color : #ececec;
+}
+
+p {
+    color : #ececec;
 }

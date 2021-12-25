@@ -3,3 +3,22 @@ canvas {
   top: 0;
   left: 0;
 }
+
+main {
+  position: absolute;
+  font-size: 200%;
+}
+
+header {
+  background-color: white;
+}
+
+blockquote {
+  background-color: black;
+  color: white;
+}
+
+section {
+  background-color: black;
+  color: white;
+}

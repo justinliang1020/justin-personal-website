@@ -1,5 +1,7 @@
 import './style.css'
 
+//import from cdn
+
 import * as THREE from 'three'
 
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
@@ -23,7 +25,7 @@ renderer.render(scene, camera);
 //objects
 
 const geometry = new THREE.TorusGeometry( 10, 3, 16, 100 );
-const material = new THREE.MeshStandardMaterial( {color: 0xFF6347});
+const material = new THREE.MeshStandardMaterial( {color: 0x89CFF0});
 const torus = new THREE.Mesh( geometry, material );
 
 scene.add(torus);
@@ -36,7 +38,7 @@ const cat = new THREE.Mesh(
 
 scene.add(cat)
 
-const moonTexture = new THREE.TextureLoader().load('assets/moon.jpeg');
+const moonTexture = new THREE.TextureLoader().load('assets/obama.png');
 const moonNormalTexture = new THREE.TextureLoader().load('assets/moon_normal.jpg');
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32 , 32),
